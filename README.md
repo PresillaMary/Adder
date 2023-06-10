@@ -42,6 +42,7 @@ Carry = AB + ACin+BCin
 
 
 ## Program:
+~~~
 1.Half adder:
 module exp3a(a,b,sum,carry);
 input a,b;
@@ -49,7 +50,9 @@ output sum,carry;
 xor(sum,a,b);
 and(carry,a,b);
 endmodule
+~~~
 
+~~~
 2.Full adder:
 module exp3b(a,b,c,sum,carry);
 input a,b,c;
@@ -61,6 +64,7 @@ and(q,b,c);
 and(r,a,c);
 or(carry,p,q,r);
 endmodule
+~~~
 
 
 
